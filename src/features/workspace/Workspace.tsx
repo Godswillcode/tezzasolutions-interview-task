@@ -1,9 +1,8 @@
-import React from 'react'
+import { DashboardLayout } from "components/layout/DashboardLayout";
+import React from "react";
 
 const Workspace = () => {
-  return (
-    <div>Workspace</div>
-  )
-}
+  return <DashboardLayout>hello</DashboardLayout>;
+};
 
-export default Workspace
+export default Workspace;

@@ -18,7 +18,7 @@ const Login = () => {
               <h3 className="text-lg font-semibold pb-1">Login</h3>
               <p>Login to your account</p>
             </div>
-            <img src={logo} alt="logo" className="h-1w-16 w-16 rounded-full" />
+            <img src={logo} alt="logo" className="h-16 w-16 rounded-full" />
           </div>
           <LoginForm />
         </div>
