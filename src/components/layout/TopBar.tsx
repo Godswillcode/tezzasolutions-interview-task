@@ -4,8 +4,12 @@ import { Icon } from "@iconify/react";
 
 export const TopBar = () => {
   return (
+    <>
     <div className="w-full bg-white shadow-sm py-3">
-      <div className="Container">
+      <div className="Container flex justify-between items-center">
+        <div className="lg:invisible">
+          <Icon icon="pixelarticons:menu" fontSize={25} />
+        </div>
         <div className="flex items-center justify-end gap-x-6">
           <Badge count={2} size="small" color="#aa2d22">
             <Icon icon="mdi:bell-outline" fontSize={20} />
@@ -19,5 +23,6 @@ export const TopBar = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
