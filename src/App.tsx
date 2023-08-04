@@ -1,10 +1,10 @@
-import Login from "features/authentication/pages/Login";
+import { AllRoutes } from "config/routesManagement/AllRoutes";
 
 function App() {
   return (
-    <div className="App">
-      <Login />
-    </div>
+    <>
+      <AllRoutes />
+    </>
   );
 }
 
