@@ -31,3 +31,8 @@ body {
     padding-right: 2rem;
   }
 }
+
+.button {
+  @apply bg-primary font-medium text-white transition ease-in-out duration-300 text-sm tracking-wider hover:opacity-70;
+  padding: 8.2px 20.5px;
+}
