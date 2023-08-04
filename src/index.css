@@ -19,3 +19,15 @@ body {
   background-color: #fafafc;
   font-family: "Roboto", sans-serif;
 }
+
+.Container {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .Container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
