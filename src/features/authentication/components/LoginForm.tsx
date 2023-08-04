@@ -20,7 +20,7 @@ export const LoginForm = () => {
       </Form.Item>
 
       <div className="flex justify-center">
-        <button className="button w-56">Login</button>
+        <button className="button w-64">Login</button>
       </div>
     </Form>
   );

@@ -4,7 +4,7 @@ import { LoginForm } from "../components/LoginForm";
 
 const Login = () => {
   return (
-    <div>
+    <div className="h-screen w-full bg-white overflow-y-auto">
       <img
         src={authBg}
         alt="auth background"
@@ -12,7 +12,7 @@ const Login = () => {
         style={{ height: "70vh" }}
       />
       <div className="Container">
-        <div className="bg-white p-7 max-w-md mx-auto shadow -mt-56 relative z-30">
+        <div className="bg-white p-7 max-w-md mx-auto shadow-md -mt-56 relative z-30">
           <div className="flex justify-between items-center">
             <div>
               <h3 className="text-lg font-semibold pb-1">Login</h3>
