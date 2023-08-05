@@ -24,28 +24,26 @@ export const Sidebar = () => {
           <span>Clients</span>
         </NavLink>
 
-        <NavLink to="/appoint" className="sideBarStyle">
+        <NavLink to={routePath.fallbackRoute} className="sideBarStyle">
           <Icon icon="mdi:invoice-schedule-outline" fontSize={22} />
           <span>Schedule Appointment</span>
         </NavLink>
-        <NavLink to="/payment" className="sideBarStyle">
+        <NavLink to={routePath.fallbackRoute} className="sideBarStyle">
           <Icon icon="la:file-invoice-dollar" fontSize={22} />
           <span>Payment</span>
         </NavLink>
-        <NavLink to="/payment" className="sideBarStyle">
+        <NavLink to={routePath.fallbackRoute} className="sideBarStyle">
           <Icon icon="fluent:task-list-24-filled" fontSize={22} />
           <span>Task</span>
         </NavLink>
-        <NavLink to="/payment" className="sideBarStyle">
+        <NavLink to={routePath.fallbackRoute} className="sideBarStyle">
           <Icon icon="ant-design:message-outlined" fontSize={22} />
           <span>Message</span>
         </NavLink>
-        <NavLink to="/payment" className="sideBarStyle">
+        <NavLink to={routePath.fallbackRoute} className="sideBarStyle">
           <Icon icon="tabler:report-analytics" fontSize={22} />
           <span>Report</span>
-
-          {/* <i className="ri-arrow-down-s-fill text-base pl-16"></i> */}
-          <Icon icon="ri:arrow-down-s-fill" fontSize={16} className="ml-16"/>
+          <Icon icon="ri:arrow-down-s-fill" fontSize={16} className="ml-16" />
         </NavLink>
       </div>
     </div>

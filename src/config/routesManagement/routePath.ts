@@ -7,4 +7,5 @@ export const routePath = {
     format: `/clients/:id`,
     path: `/clients/${id}`,
   }),
+  fallbackRoute: `/fallback_route`,
 };
