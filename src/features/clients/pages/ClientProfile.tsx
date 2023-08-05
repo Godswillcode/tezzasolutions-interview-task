@@ -17,11 +17,11 @@ const ClientProfile = () => {
           style={{ background: "#fafafc" }}
         >
           <h3 className="font-semibold">Client Picture</h3>
-          <div className="flex items-center gap-2 md:grid-cols-4 mt-4 font-medium">
-            <img src={avatar} alt="avatar" />
+          <div className="flex flex-col md:flex-row md:items-center gap-2 md:grid-cols-4 mt-4 font-medium">
+            <img src={avatar} alt="avatar" className="h-28 w-28 md:h-auto object-cover"/>
             <div className="">
               <h2 className="font-extrabold text-base">Odusote Mayokun</h2>
-              <h4 className="text-accent py-2 pr-2">
+              <h4 className="text-accent py-2">
                 adegoketemitope1909@gmail.com
               </h4>
               <div className="flex items-center gap-3 text-accent">
