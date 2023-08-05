@@ -12,7 +12,7 @@ export const DashboardLayout: React.FC<IProps> = ({ children }: IProps) => {
         <div className="w-52 fixed z-40 overflow-hidden lg:flex hidden">
           <Sidebar />
         </div>
-        <div className="w-full lg:ml-52 pb-10">
+        <div className="w-full lg:ml-52 pb-12">
           <TopBar />
           <main className="Container pt-10">{children}</main>
         </div>

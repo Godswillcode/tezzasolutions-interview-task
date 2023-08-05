@@ -38,10 +38,10 @@ body {
 }
 
 .sideBarStyle {
-  @apply flex items-center gap-x-3 cursor-pointer py-2 text-xs px-5 font-semibold hover:text-primary;
+  @apply flex items-center gap-x-3 cursor-pointer py-1 text-xs px-5 font-semibold hover:text-primary;
   color: #3a3a3a;
 }
 
 .sideBarStyle.active {
-  @apply border-l-2 border-primary text-primary font-semibold;
+  @apply border-l-2 border-primary py-1 text-primary font-semibold;
 }

@@ -14,7 +14,7 @@ export const Sidebar = () => {
         <img src={logo} alt="logo" className="h-20 w-20 rounded-full" />
       </div>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-5">
         <NavLink to={routePath.workspace} className="sideBarStyle">
           <Icon icon="circum:grid-4-2" fontSize={22} />
           <span>Workspace</span>
