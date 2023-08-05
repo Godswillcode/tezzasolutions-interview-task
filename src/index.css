@@ -27,8 +27,8 @@ body {
 
 @media (min-width: 768px) {
   .Container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
 
