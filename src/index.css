@@ -45,3 +45,7 @@ body {
 .sideBarStyle.active {
   @apply border-l-2 border-primary py-1 text-primary font-semibold;
 }
+
+ .search .ant-input {
+   background-color: #fafafc!important;
+}
