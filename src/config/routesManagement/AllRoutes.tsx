@@ -8,7 +8,7 @@ import { routePath } from "./routePath";
 import Login from "features/authentication/pages/Login";
 import Workspace from "features/workspace/Workspace";
 import Clients from "features/clients/pages/Clients";
-import ClientDetails from "features/clients/pages/ClientDetails";
+import ClientProfile from "features/clients/pages/ClientProfile";
 
 export const AllRoutes = () => {
   return (
@@ -18,8 +18,8 @@ export const AllRoutes = () => {
         <Route path={routePath.workspace} element={<Workspace />} />
         <Route path={routePath.clients} element={<Clients />} />
         <Route
-          path={routePath.clientDetails().format}
-          element={<ClientDetails />}
+          path={routePath.clientProfile().format}
+          element={<ClientProfile />}
         />
         <Route
           path={routePath.home}

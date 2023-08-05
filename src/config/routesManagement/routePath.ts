@@ -3,7 +3,7 @@ export const routePath = {
   login: `/login`,
   workspace: `/workspace`,
   clients: `/clients`,
-  clientDetails: (id?: number | string) => ({
+  clientProfile: (id?: number | string) => ({
     format: `/clients/:id`,
     path: `/clients/${id}`,
   }),
