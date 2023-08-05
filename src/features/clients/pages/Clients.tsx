@@ -8,7 +8,7 @@ const Clients = () => {
   return (
     <DashboardLayout>
       <PageIntro title="Clients" description="Here's the clients list" />
-      <div className="bg-white rounded px-3 py-6 shadow-sm">
+      <div className="bg-white rounded px-5 py-6 shadow-sm">
         <div className="flex md:items-center md:flex-row flex-col gap-5 search mb-8">
           <div className="w-full md:w-3/4 lg:w-4/5">
             <Input
