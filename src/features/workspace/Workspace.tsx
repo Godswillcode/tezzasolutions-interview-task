@@ -3,6 +3,7 @@ import { DashboardLayout } from "components/layout/DashboardLayout";
 import { Icon } from "@iconify/react";
 
 const Workspace = () => {
+
   return (
     <DashboardLayout>
       <PageIntro title="Your Workspace" description="Welcome, xxx" />

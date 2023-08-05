@@ -1,10 +1,18 @@
-import { Input } from "antd";
+import { Input, notification } from "antd";
 import { PageIntro } from "components/PageIntro";
 import { DashboardLayout } from "components/layout/DashboardLayout";
 import { Icon } from "@iconify/react";
 import { ClientTable } from "../components/ClientTable";
+import { useEffect } from "react";
 
 const Clients = () => {
+  useEffect(() => {
+    notification.info({
+      message: "Information",
+      description:
+        "Please click on client's name or email to view profile page.",
+    });
+  }, []);
   return (
     <DashboardLayout>
       <PageIntro title="Clients" description="Here's the clients list" />
