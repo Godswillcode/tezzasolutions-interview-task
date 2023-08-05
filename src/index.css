@@ -37,6 +37,7 @@ body {
   padding: 8.2px 20.5px;
 }
 
+/* == sidebar == */
 .sideBarStyle {
   @apply flex items-center gap-x-3 cursor-pointer py-1 text-xs px-5 font-semibold hover:text-primary;
   color: #3a3a3a;
@@ -44,6 +45,16 @@ body {
 
 .sideBarStyle.active {
   @apply border-l-2 border-primary py-1 text-primary font-semibold;
+}
+
+/* == client profile == */
+
+.profile_list .label {
+  @apply text-accent font-medium pb-1;
+}
+
+.profile_list .value {
+  @apply font-bold;
 }
 
 /*=== UI Library modifications  ===*/
